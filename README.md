@@ -1,41 +1,22 @@
-# Dice Web API
+# docker-dice
 
-## Description
+> My ace Nuxt.js project
 
-A web API that simply rolls a dice and returns the result.
+## Build Setup
 
-## Requirements
+``` bash
+# install dependencies
+$ yarn install
 
-* Docker
+# serve with hot reload at localhost:3000
+$ yarn dev
 
-## Usage
+# build for production and launch server
+$ yarn build
+$ yarn start
 
-```bash
-$ docker run --rm -d -p 80:80 genzouw/docker-dice
-
-$ curl -S http://localhost/roll.php
+# generate static project
+$ yarn generate
 ```
 
-## Relase Note
-
-| date       | version | note           |
-| ---        | ---     | ---            |
-| 2019-08-07 | v1.0.0  | first release. |
-
-
-## License
-
-This software is released under the MIT License, see LICENSE.
-
-
-## Contribution
-
-
-## Author Information
-
-[genzouw](https://genzouw.com)
-
-* Twitter   : @genzouw ( https://twitter.com/genzouw )
-* Facebook  : genzouw ( https://www.facebook.com/genzouw )
-* LinkedIn  : genzouw ( https://www.linkedin.com/in/genzouw/ )
-* Gmail     : genzouw@gmail.com
+For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
