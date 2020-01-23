@@ -70,11 +70,11 @@ export default {
       // Should the the same as your canonical link, see below.
       {
         property: "og:url",
-        content: "https://dice.spinosaurus.work"
+        content: "https://dice-api.genzouw.com"
       },
       {
         property: "og:image",
-        content: "https://dice.spinosaurus.work/static/icon.png"
+        content: "https://dice-api.genzouw.com/static/icon.png"
       },
       // Often the same as your meta description, but not always.
       {
@@ -88,7 +88,7 @@ export default {
       },
       {
         name: "twitter:site",
-        content: "https://dice.spinosaurus.work"
+        content: "https://dice-api.genzouw.com"
       },
       {
         name: "twitter:title",
@@ -105,7 +105,7 @@ export default {
       },
       {
         name: "twitter:image:src",
-        content: "https://dice.spinosaurus.work/static/icon.png"
+        content: "https://dice-api.genzouw.com/static/icon.png"
       },
 
       // Google / Schema.org markup:
@@ -119,7 +119,7 @@ export default {
       },
       {
         itemprop: "image",
-        content: "https://dice.spinosaurus.work/static/icon.png"
+        content: "https://dice-api.genzouw.com/static/icon.png"
       },
 
       // Google Analytics

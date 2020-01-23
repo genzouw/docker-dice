@@ -43,7 +43,7 @@
         </p>
 
         <ul>
-          <li><a href="http://dice.spinosaurus.work/v1/dice">http://dice.spinosaurus.work/v1/dice</a></li>
+          <li><a href="http://dice-api.genzouw.com/v1/dice">http://dice-api.genzouw.com/v1/dice</a></li>
         </ul>
 
         <p>
@@ -60,7 +60,7 @@
         <prism language="bash">
         curl -I \
           --request GET \
-          --url http://dice.spinosaurus.work/v1/dice
+          --url http://dice-api.genzouw.com/v1/dice
         </prism>
 
       </div>
