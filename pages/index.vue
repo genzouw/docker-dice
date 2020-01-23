@@ -43,7 +43,7 @@
         </p>
 
         <ul>
-          <li><a href="http://dice-api.genzouw.com/v1/dice">http://dice-api.genzouw.com/v1/dice</a></li>
+          <li><a href="https://dice-api.genzouw.com/v1/dice">https://dice-api.genzouw.com/v1/dice</a></li>
         </ul>
 
         <p>
@@ -58,9 +58,9 @@
         <p>If you use "curl" command, execute the following command. </p>
 
         <prism language="bash">
-        curl -I \
+        curl \
           --request GET \
-          --url http://dice-api.genzouw.com/v1/dice
+          --url https://dice-api.genzouw.com/v1/dice
         </prism>
 
       </div>
