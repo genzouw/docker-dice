@@ -1,4 +1,4 @@
-# docker-dice
+# dice-api
 
 > My ace Nuxt.js project
 
