@@ -32,8 +32,11 @@ kind: Service
 metadata:
   name: service-dice-api
 spec:
+  type: ClusterIP
   selector:
     app: dice-api
   ports:
-    - port: 80
-  type: NodePort
+    - name: "http-port"
+      protocol: "TCP"
+      port: 9001
+      targetPort: 80
